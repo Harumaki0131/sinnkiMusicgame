@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766AFC1F6CFA68000D9968 /* AppDelegate.swift */; };
-		58766AFF1F6CFA68000D9968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766AFE1F6CFA68000D9968 /* ViewController.swift */; };
 		58766B021F6CFA68000D9968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58766B001F6CFA68000D9968 /* Main.storyboard */; };
 		58766B041F6CFA68000D9968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58766B031F6CFA68000D9968 /* Assets.xcassets */; };
 		58766B071F6CFA68000D9968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58766B051F6CFA68000D9968 /* LaunchScreen.storyboard */; };
 		58766B121F6CFA68000D9968 /* __musicgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B111F6CFA68000D9968 /* __musicgameTests.swift */; };
 		58766B1D1F6CFA69000D9968 /* __musicgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B1C1F6CFA69000D9968 /* __musicgameUITests.swift */; };
+		58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B2A1F6CFBDB000D9968 /* ViewController.swift */; };
+		58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B2C1F6D03C7000D9968 /* scoreViewController.swift */; };
+		58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58766B2E1F6D0C5F000D9968 /* happy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		58766AF91F6CFA68000D9968 /* 新規musicgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新規musicgame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58766AFC1F6CFA68000D9968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58766AFE1F6CFA68000D9968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58766B011F6CFA68000D9968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58766B031F6CFA68000D9968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58766B061F6CFA68000D9968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		58766B181F6CFA69000D9968 /* 新規musicgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "新規musicgameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58766B1C1F6CFA69000D9968 /* __musicgameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __musicgameUITests.swift; sourceTree = "<group>"; };
 		58766B1E1F6CFA69000D9968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58766B2A1F6CFBDB000D9968 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58766B2C1F6D03C7000D9968 /* scoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
+		58766B2E1F6D0C5F000D9968 /* happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happy.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				58766AFC1F6CFA68000D9968 /* AppDelegate.swift */,
-				58766AFE1F6CFA68000D9968 /* ViewController.swift */,
 				58766B001F6CFA68000D9968 /* Main.storyboard */,
+				58766B2A1F6CFBDB000D9968 /* ViewController.swift */,
+				58766B2C1F6D03C7000D9968 /* scoreViewController.swift */,
 				58766B031F6CFA68000D9968 /* Assets.xcassets */,
 				58766B051F6CFA68000D9968 /* LaunchScreen.storyboard */,
 				58766B081F6CFA68000D9968 /* Info.plist */,
+				58766B2E1F6D0C5F000D9968 /* happy.mp3 */,
 			);
 			path = "新規musicgame";
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				58766B071F6CFA68000D9968 /* LaunchScreen.storyboard in Resources */,
 				58766B041F6CFA68000D9968 /* Assets.xcassets in Resources */,
 				58766B021F6CFA68000D9968 /* Main.storyboard in Resources */,
+				58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58766AFF1F6CFA68000D9968 /* ViewController.swift in Sources */,
+				58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */,
+				58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */,
 				58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
