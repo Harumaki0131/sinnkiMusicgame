@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58098A7E1F7F65D000774E92 /* GradationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58098A7D1F7F65D000774E92 /* GradationView.swift */; };
 		58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766AFC1F6CFA68000D9968 /* AppDelegate.swift */; };
 		58766B021F6CFA68000D9968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58766B001F6CFA68000D9968 /* Main.storyboard */; };
 		58766B041F6CFA68000D9968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58766B031F6CFA68000D9968 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B2A1F6CFBDB000D9968 /* ViewController.swift */; };
 		58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B2C1F6D03C7000D9968 /* scoreViewController.swift */; };
 		58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58766B2E1F6D0C5F000D9968 /* happy.mp3 */; };
+		58766B331F6D3D89000D9968 /* haikeiyea.png in Resources */ = {isa = PBXBuildFile; fileRef = 58766B321F6D3D89000D9968 /* haikeiyea.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58098A7D1F7F65D000774E92 /* GradationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradationView.swift; path = ../GradationView.swift; sourceTree = "<group>"; };
 		58766AF91F6CFA68000D9968 /* 新規musicgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新規musicgame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58766AFC1F6CFA68000D9968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58766B011F6CFA68000D9968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		58766B2A1F6CFBDB000D9968 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58766B2C1F6D03C7000D9968 /* scoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
 		58766B2E1F6D0C5F000D9968 /* happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happy.mp3; sourceTree = "<group>"; };
+		58766B321F6D3D89000D9968 /* haikeiyea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikeiyea.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				58766AFC1F6CFA68000D9968 /* AppDelegate.swift */,
+				58766B321F6D3D89000D9968 /* haikeiyea.png */,
 				58766B001F6CFA68000D9968 /* Main.storyboard */,
+				58098A7D1F7F65D000774E92 /* GradationView.swift */,
 				58766B2A1F6CFBDB000D9968 /* ViewController.swift */,
 				58766B2C1F6D03C7000D9968 /* scoreViewController.swift */,
 				58766B031F6CFA68000D9968 /* Assets.xcassets */,
@@ -241,6 +247,7 @@
 				58766B071F6CFA68000D9968 /* LaunchScreen.storyboard in Resources */,
 				58766B041F6CFA68000D9968 /* Assets.xcassets in Resources */,
 				58766B021F6CFA68000D9968 /* Main.storyboard in Resources */,
+				58766B331F6D3D89000D9968 /* haikeiyea.png in Resources */,
 				58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */,
+				58098A7E1F7F65D000774E92 /* GradationView.swift in Sources */,
 				58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */,
 				58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */,
 			);
@@ -511,6 +519,7 @@
 				58766B231F6CFA69000D9968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58766B241F6CFA69000D9968 /* Build configuration list for PBXNativeTarget "新規musicgameTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +528,7 @@
 				58766B261F6CFA69000D9968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58766B271F6CFA69000D9968 /* Build configuration list for PBXNativeTarget "新規musicgameUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +537,7 @@
 				58766B291F6CFA69000D9968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
