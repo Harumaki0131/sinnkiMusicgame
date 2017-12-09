@@ -18,6 +18,10 @@ class Gradation: UIView {
     @IBInspectable var borderColor : UIColor = UIColor.clear
     @IBInspectable var borderWidth : CGFloat = 1.0
     @IBInspectable var cornerRadius : CGFloat = 5.0
+//    
+//    @IBInspectable var startPoint : CGPoint = CGPoint(x: 0.0, y: 0.0)
+//    @IBInspectable var endPoint :CGPoint = CGPoint(x: 1.0, y: 1.0)
+
     
     
     //  Attributes Inspectorで設定した値を反映
@@ -43,12 +47,25 @@ class Gradation: UIView {
         }
     }
     
+    @IBInspectable var startPoint: CGPoint =  CGPoint(x: 0.0, y: 0.0) {
+        didSet {
+            setGradation()
+        }
+    }
+    
+    @IBInspectable var endPoint: CGPoint =  CGPoint(x: 1.0, y: 1.0) {
+        didSet {
+            setGradation()
+        }
+    }
+    
+    
     
     private func setGradation() {
         gradentLayer?.removeFromSuperlayer()
         gradentLayer = CAGradientLayer()
-        gradentLayer?.startPoint = CGPoint(x: 0.0, y: 0.0)
-        gradentLayer?.endPoint = CGPoint(x: 1.0, y: 1.0)
+        gradentLayer?.startPoint = startPoint
+        gradentLayer?.endPoint = endPoint
         gradentLayer!.colors = [topColor.cgColor, bottomColor.cgColor]
         gradentLayer!.frame.size = frame.size
         layer.addSublayer(gradentLayer!)

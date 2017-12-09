@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		58098A7E1F7F65D000774E92 /* GradationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58098A7D1F7F65D000774E92 /* GradationView.swift */; };
+		58200A0A1FB6F3EB000D2870 /* 台形.png in Resources */ = {isa = PBXBuildFile; fileRef = 58200A091FB6F3EB000D2870 /* 台形.png */; };
+		58200A0C1FB6F455000D2870 /* 台形 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58200A0B1FB6F455000D2870 /* 台形 2.png */; };
+		58200A0E1FB6F4AC000D2870 /* 台形 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 58200A0D1FB6F4AC000D2870 /* 台形 3.png */; };
+		58200A101FB6F533000D2870 /* 台形 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 58200A0F1FB6F533000D2870 /* 台形 4.png */; };
+		58200A121FB708EE000D2870 /* 中心.png in Resources */ = {isa = PBXBuildFile; fileRef = 58200A111FB708EE000D2870 /* 中心.png */; };
+		582AC3401FC9808300A6E234 /* yea.png in Resources */ = {isa = PBXBuildFile; fileRef = 582AC33F1FC9808300A6E234 /* yea.png */; };
+		5873F52E1FDBF5DA00BA8507 /* リザルト会.png in Resources */ = {isa = PBXBuildFile; fileRef = 5873F52D1FDBF5DA00BA8507 /* リザルト会.png */; };
 		58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766AFC1F6CFA68000D9968 /* AppDelegate.swift */; };
 		58766B021F6CFA68000D9968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58766B001F6CFA68000D9968 /* Main.storyboard */; };
 		58766B041F6CFA68000D9968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58766B031F6CFA68000D9968 /* Assets.xcassets */; };
@@ -18,6 +25,7 @@
 		58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B2C1F6D03C7000D9968 /* scoreViewController.swift */; };
 		58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58766B2E1F6D0C5F000D9968 /* happy.mp3 */; };
 		58766B331F6D3D89000D9968 /* haikeiyea.png in Resources */ = {isa = PBXBuildFile; fileRef = 58766B321F6D3D89000D9968 /* haikeiyea.png */; };
+		58902EA41FC9673900D6FE06 /* 表紙.png in Resources */ = {isa = PBXBuildFile; fileRef = 58902EA31FC9673900D6FE06 /* 表紙.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,13 @@
 
 /* Begin PBXFileReference section */
 		58098A7D1F7F65D000774E92 /* GradationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GradationView.swift; path = ../GradationView.swift; sourceTree = "<group>"; };
+		58200A091FB6F3EB000D2870 /* 台形.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台形.png"; sourceTree = "<group>"; };
+		58200A0B1FB6F455000D2870 /* 台形 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台形 2.png"; sourceTree = "<group>"; };
+		58200A0D1FB6F4AC000D2870 /* 台形 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台形 3.png"; sourceTree = "<group>"; };
+		58200A0F1FB6F533000D2870 /* 台形 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台形 4.png"; sourceTree = "<group>"; };
+		58200A111FB708EE000D2870 /* 中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中心.png"; sourceTree = "<group>"; };
+		582AC33F1FC9808300A6E234 /* yea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yea.png; sourceTree = "<group>"; };
+		5873F52D1FDBF5DA00BA8507 /* リザルト会.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "リザルト会.png"; sourceTree = "<group>"; };
 		58766AF91F6CFA68000D9968 /* 新規musicgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新規musicgame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58766AFC1F6CFA68000D9968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58766B011F6CFA68000D9968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +70,7 @@
 		58766B2C1F6D03C7000D9968 /* scoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
 		58766B2E1F6D0C5F000D9968 /* happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happy.mp3; sourceTree = "<group>"; };
 		58766B321F6D3D89000D9968 /* haikeiyea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikeiyea.png; sourceTree = "<group>"; };
+		58902EA31FC9673900D6FE06 /* 表紙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "表紙.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +121,14 @@
 		58766AFB1F6CFA68000D9968 /* 新規musicgame */ = {
 			isa = PBXGroup;
 			children = (
+				58200A091FB6F3EB000D2870 /* 台形.png */,
+				58200A111FB708EE000D2870 /* 中心.png */,
+				58200A0B1FB6F455000D2870 /* 台形 2.png */,
+				58200A0D1FB6F4AC000D2870 /* 台形 3.png */,
+				58200A0F1FB6F533000D2870 /* 台形 4.png */,
+				58902EA31FC9673900D6FE06 /* 表紙.png */,
+				582AC33F1FC9808300A6E234 /* yea.png */,
+				5873F52D1FDBF5DA00BA8507 /* リザルト会.png */,
 				58766AFC1F6CFA68000D9968 /* AppDelegate.swift */,
 				58766B321F6D3D89000D9968 /* haikeiyea.png */,
 				58766B001F6CFA68000D9968 /* Main.storyboard */,
@@ -244,11 +268,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58200A0E1FB6F4AC000D2870 /* 台形 3.png in Resources */,
+				58902EA41FC9673900D6FE06 /* 表紙.png in Resources */,
 				58766B071F6CFA68000D9968 /* LaunchScreen.storyboard in Resources */,
 				58766B041F6CFA68000D9968 /* Assets.xcassets in Resources */,
 				58766B021F6CFA68000D9968 /* Main.storyboard in Resources */,
 				58766B331F6D3D89000D9968 /* haikeiyea.png in Resources */,
+				58200A121FB708EE000D2870 /* 中心.png in Resources */,
 				58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */,
+				5873F52E1FDBF5DA00BA8507 /* リザルト会.png in Resources */,
+				58200A0C1FB6F455000D2870 /* 台形 2.png in Resources */,
+				582AC3401FC9808300A6E234 /* yea.png in Resources */,
+				58200A0A1FB6F3EB000D2870 /* 台形.png in Resources */,
+				58200A101FB6F533000D2870 /* 台形 4.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
