@@ -14,6 +14,10 @@
 		58200A101FB6F533000D2870 /* 台形 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 58200A0F1FB6F533000D2870 /* 台形 4.png */; };
 		58200A121FB708EE000D2870 /* 中心.png in Resources */ = {isa = PBXBuildFile; fileRef = 58200A111FB708EE000D2870 /* 中心.png */; };
 		582AC3401FC9808300A6E234 /* yea.png in Resources */ = {isa = PBXBuildFile; fileRef = 582AC33F1FC9808300A6E234 /* yea.png */; };
+		58699AD62000ADBA00BB3935 /* HMGameInputScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58699AD42000ADBA00BB3935 /* HMGameInputScene.swift */; };
+		58699AD72000ADBA00BB3935 /* HMGamePlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58699AD52000ADBA00BB3935 /* HMGamePlayScene.swift */; };
+		58699ADA2000ADCC00BB3935 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58699AD82000ADCC00BB3935 /* InputViewController.swift */; };
+		58699ADB2000ADCC00BB3935 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58699AD92000ADCC00BB3935 /* PlayViewController.swift */; };
 		5873F52E1FDBF5DA00BA8507 /* リザルト会.png in Resources */ = {isa = PBXBuildFile; fileRef = 5873F52D1FDBF5DA00BA8507 /* リザルト会.png */; };
 		58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766AFC1F6CFA68000D9968 /* AppDelegate.swift */; };
 		58766B021F6CFA68000D9968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58766B001F6CFA68000D9968 /* Main.storyboard */; };
@@ -53,6 +57,10 @@
 		58200A0F1FB6F533000D2870 /* 台形 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "台形 4.png"; sourceTree = "<group>"; };
 		58200A111FB708EE000D2870 /* 中心.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中心.png"; sourceTree = "<group>"; };
 		582AC33F1FC9808300A6E234 /* yea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yea.png; sourceTree = "<group>"; };
+		58699AD42000ADBA00BB3935 /* HMGameInputScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGameInputScene.swift; sourceTree = "<group>"; };
+		58699AD52000ADBA00BB3935 /* HMGamePlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMGamePlayScene.swift; sourceTree = "<group>"; };
+		58699AD82000ADCC00BB3935 /* InputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		58699AD92000ADCC00BB3935 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		5873F52D1FDBF5DA00BA8507 /* リザルト会.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "リザルト会.png"; sourceTree = "<group>"; };
 		58766AF91F6CFA68000D9968 /* 新規musicgame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新規musicgame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58766AFC1F6CFA68000D9968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,7 +138,11 @@
 				582AC33F1FC9808300A6E234 /* yea.png */,
 				5873F52D1FDBF5DA00BA8507 /* リザルト会.png */,
 				58766AFC1F6CFA68000D9968 /* AppDelegate.swift */,
+				58699AD42000ADBA00BB3935 /* HMGameInputScene.swift */,
+				58699AD52000ADBA00BB3935 /* HMGamePlayScene.swift */,
 				58766B321F6D3D89000D9968 /* haikeiyea.png */,
+				58699AD82000ADCC00BB3935 /* InputViewController.swift */,
+				58699AD92000ADCC00BB3935 /* PlayViewController.swift */,
 				58766B001F6CFA68000D9968 /* Main.storyboard */,
 				58098A7D1F7F65D000774E92 /* GradationView.swift */,
 				58766B2A1F6CFBDB000D9968 /* ViewController.swift */,
@@ -305,10 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58699ADB2000ADCC00BB3935 /* PlayViewController.swift in Sources */,
+				58699AD62000ADBA00BB3935 /* HMGameInputScene.swift in Sources */,
 				58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */,
 				58098A7E1F7F65D000774E92 /* GradationView.swift in Sources */,
+				58699ADA2000ADCC00BB3935 /* InputViewController.swift in Sources */,
 				58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */,
 				58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */,
+				58699AD72000ADBA00BB3935 /* HMGamePlayScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
