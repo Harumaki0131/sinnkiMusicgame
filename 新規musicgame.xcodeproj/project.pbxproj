@@ -30,6 +30,7 @@
 		58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58766B2E1F6D0C5F000D9968 /* happy.mp3 */; };
 		58766B331F6D3D89000D9968 /* haikeiyea.png in Resources */ = {isa = PBXBuildFile; fileRef = 58766B321F6D3D89000D9968 /* haikeiyea.png */; };
 		58902EA41FC9673900D6FE06 /* 表紙.png in Resources */ = {isa = PBXBuildFile; fileRef = 58902EA31FC9673900D6FE06 /* 表紙.png */; };
+		58D7F31D2000DE9B00AE1684 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7F31C2000DE9B00AE1684 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		58766B2E1F6D0C5F000D9968 /* happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happy.mp3; sourceTree = "<group>"; };
 		58766B321F6D3D89000D9968 /* haikeiyea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikeiyea.png; sourceTree = "<group>"; };
 		58902EA31FC9673900D6FE06 /* 表紙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "表紙.png"; sourceTree = "<group>"; };
+		58D7F31C2000DE9B00AE1684 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				58766B001F6CFA68000D9968 /* Main.storyboard */,
 				58098A7D1F7F65D000774E92 /* GradationView.swift */,
 				58766B2A1F6CFBDB000D9968 /* ViewController.swift */,
+				58D7F31C2000DE9B00AE1684 /* ViewController2.swift */,
 				58766B2C1F6D03C7000D9968 /* scoreViewController.swift */,
 				58766B031F6CFA68000D9968 /* Assets.xcassets */,
 				58766B051F6CFA68000D9968 /* LaunchScreen.storyboard */,
@@ -319,6 +322,7 @@
 			files = (
 				58699ADB2000ADCC00BB3935 /* PlayViewController.swift in Sources */,
 				58699AD62000ADBA00BB3935 /* HMGameInputScene.swift in Sources */,
+				58D7F31D2000DE9B00AE1684 /* ViewController2.swift in Sources */,
 				58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */,
 				58098A7E1F7F65D000774E92 /* GradationView.swift in Sources */,
 				58699ADA2000ADCC00BB3935 /* InputViewController.swift in Sources */,
