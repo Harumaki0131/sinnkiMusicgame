@@ -99,24 +99,9 @@ class ViewController: UIViewController {
         //        let appframe: CGRect = UIScreen.mainScreen().bounds
         //speed = Float(appframe.size.height) / 1.2
         
-        //音楽ファィルの設定
-        if let audiopath = Bundle.main.url(forResource: "happy", withExtension: "mp3"){
-            
-            //audiopathに値に入ったら
-            do {
-                //audioが生成できるときはaudioを初期化、準備
-                audio = try AVAudioPlayer(contentsOf: audiopath)
-                //音楽を再生するメソッド
-                audio.play()
-            }catch {
-                //audioが生成できない時エラーになる
-                fatalError("プレイヤーが作れませんでした。")
-                
-            }
-        }else{
-            //audioPAthに値が入らなっかたらエラー
-            fatalError("audioPathに値が入りませんでした")
-        }
+      
+     
+        
         
     }
     

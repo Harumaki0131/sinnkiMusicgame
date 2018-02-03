@@ -27,9 +27,12 @@
 		58766B1D1F6CFA69000D9968 /* __musicgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B1C1F6CFA69000D9968 /* __musicgameUITests.swift */; };
 		58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B2A1F6CFBDB000D9968 /* ViewController.swift */; };
 		58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58766B2C1F6D03C7000D9968 /* scoreViewController.swift */; };
-		58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58766B2E1F6D0C5F000D9968 /* happy.mp3 */; };
 		58766B331F6D3D89000D9968 /* haikeiyea.png in Resources */ = {isa = PBXBuildFile; fileRef = 58766B321F6D3D89000D9968 /* haikeiyea.png */; };
 		58902EA41FC9673900D6FE06 /* 表紙.png in Resources */ = {isa = PBXBuildFile; fileRef = 58902EA31FC9673900D6FE06 /* 表紙.png */; };
+		58C7920F2025ABF000035F74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C7920E2025ABF000035F74 /* HomeViewController.swift */; };
+		58D6DDF720246D330036384C /* [作業用BGM]果てしない道.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58D6DDF620246D330036384C /* [作業用BGM]果てしない道.mp3 */; };
+		58D6DDFB20246E360036384C /* old Gold.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58D6DDFA20246E360036384C /* old Gold.mp3 */; };
+		58D6DDFD20246E650036384C /* shakiujiiparl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58D6DDFC20246E650036384C /* shakiujiiparl.mp3 */; };
 		58D7F31D2000DE9B00AE1684 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7F31C2000DE9B00AE1684 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,9 +80,12 @@
 		58766B1E1F6CFA69000D9968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58766B2A1F6CFBDB000D9968 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58766B2C1F6D03C7000D9968 /* scoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scoreViewController.swift; sourceTree = "<group>"; };
-		58766B2E1F6D0C5F000D9968 /* happy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happy.mp3; sourceTree = "<group>"; };
 		58766B321F6D3D89000D9968 /* haikeiyea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikeiyea.png; sourceTree = "<group>"; };
 		58902EA31FC9673900D6FE06 /* 表紙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "表紙.png"; sourceTree = "<group>"; };
+		58C7920E2025ABF000035F74 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58D6DDF620246D330036384C /* [作業用BGM]果てしない道.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "[作業用BGM]果てしない道.mp3"; sourceTree = "<group>"; };
+		58D6DDFA20246E360036384C /* old Gold.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "old Gold.mp3"; sourceTree = "<group>"; };
+		58D6DDFC20246E650036384C /* shakiujiiparl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shakiujiiparl.mp3; sourceTree = "<group>"; };
 		58D7F31C2000DE9B00AE1684 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +137,9 @@
 		58766AFB1F6CFA68000D9968 /* 新規musicgame */ = {
 			isa = PBXGroup;
 			children = (
+				58D6DDF620246D330036384C /* [作業用BGM]果てしない道.mp3 */,
+				58D6DDFA20246E360036384C /* old Gold.mp3 */,
+				58D6DDFC20246E650036384C /* shakiujiiparl.mp3 */,
 				58200A091FB6F3EB000D2870 /* 台形.png */,
 				58200A111FB708EE000D2870 /* 中心.png */,
 				58200A0B1FB6F455000D2870 /* 台形 2.png */,
@@ -142,6 +151,7 @@
 				58766AFC1F6CFA68000D9968 /* AppDelegate.swift */,
 				58699AD42000ADBA00BB3935 /* HMGameInputScene.swift */,
 				58699AD52000ADBA00BB3935 /* HMGamePlayScene.swift */,
+				58C7920E2025ABF000035F74 /* HomeViewController.swift */,
 				58766B321F6D3D89000D9968 /* haikeiyea.png */,
 				58699AD82000ADCC00BB3935 /* InputViewController.swift */,
 				58699AD92000ADCC00BB3935 /* PlayViewController.swift */,
@@ -153,7 +163,6 @@
 				58766B031F6CFA68000D9968 /* Assets.xcassets */,
 				58766B051F6CFA68000D9968 /* LaunchScreen.storyboard */,
 				58766B081F6CFA68000D9968 /* Info.plist */,
-				58766B2E1F6D0C5F000D9968 /* happy.mp3 */,
 			);
 			path = "新規musicgame";
 			sourceTree = "<group>";
@@ -290,12 +299,14 @@
 				58766B021F6CFA68000D9968 /* Main.storyboard in Resources */,
 				58766B331F6D3D89000D9968 /* haikeiyea.png in Resources */,
 				58200A121FB708EE000D2870 /* 中心.png in Resources */,
-				58766B2F1F6D0C5F000D9968 /* happy.mp3 in Resources */,
 				5873F52E1FDBF5DA00BA8507 /* リザルト会.png in Resources */,
+				58D6DDF720246D330036384C /* [作業用BGM]果てしない道.mp3 in Resources */,
 				58200A0C1FB6F455000D2870 /* 台形 2.png in Resources */,
+				58D6DDFB20246E360036384C /* old Gold.mp3 in Resources */,
 				582AC3401FC9808300A6E234 /* yea.png in Resources */,
 				58200A0A1FB6F3EB000D2870 /* 台形.png in Resources */,
 				58200A101FB6F533000D2870 /* 台形 4.png in Resources */,
+				58D6DDFD20246E650036384C /* shakiujiiparl.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +336,7 @@
 				58D7F31D2000DE9B00AE1684 /* ViewController2.swift in Sources */,
 				58766B2B1F6CFBDB000D9968 /* ViewController.swift in Sources */,
 				58098A7E1F7F65D000774E92 /* GradationView.swift in Sources */,
+				58C7920F2025ABF000035F74 /* HomeViewController.swift in Sources */,
 				58699ADA2000ADCC00BB3935 /* InputViewController.swift in Sources */,
 				58766B2D1F6D03C7000D9968 /* scoreViewController.swift in Sources */,
 				58766AFD1F6CFA68000D9968 /* AppDelegate.swift in Sources */,
